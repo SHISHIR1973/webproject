@@ -1,0 +1,64 @@
+:root{
+    --color-theme:#5e5ee5;
+}
+.discount-type{
+    background-color:var(--color-theme);
+    border-radius: 40px;
+    font-size: smaller;
+    text-transform: uppercase;
+}
+h2{
+    color: var(--color-theme);
+}
+.icon img{
+    width:6%;
+}
+.accordion-card{
+    max-width: 75%;
+    background-color:var(--color-theme);
+    padding: 60px 120px;
+}
+a{
+    color: var(--color-theme);
+}
+.accordion-card button:focus{
+    box-shadow: none;
+}
+.accordion-card button:not(.collapsed) .toggle-icon svg{
+    transform: rotate(45deg);
+}
+.accordion-card button:after{
+    display: none;
+}
+.accordion-card button{
+    background-color: rgb(236, 237, 251);
+}
+.accordion-card button:not(.collapsed){
+    box-shadow: none;
+    background-color: rgb(236, 237, 251);
+}
+.accordion-card .accordion-item{
+    position: relative;
+    background-color: rgb(236, 237, 251);
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 4px;
+}
+.accordion-card .accordion-item:before{
+    content: '';
+    position: absolute;
+    width:4px;
+    height:100%;
+    border-radius: 4px 0px 0px 4px;
+    top:0;
+    bottom:0;
+    background-color: var(--color-theme);
+
+}
+.toggle-icon{
+    position: absolute;
+    right:10px;
+    top:2rem;
+}
+.toggle-icon svg{
+    transition: all 0.5s ease;
+}
