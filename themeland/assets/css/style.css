@@ -202,7 +202,7 @@ h1 {
 }
 
 .mobile-slider {
-    background: url("/assets/images/mobile-slider.png") no-repeat center center / contain;
+    background: url("../images/mobile-slider.png") no-repeat center center / contain;
 }
 
 .slider-image {
@@ -396,7 +396,7 @@ h1 {
 .devices {
     padding: 6rem 0rem;
     position: relative;
-    background: url("/assets/images/download-bg.jpeg");
+    background: url("../images/download-bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -427,7 +427,7 @@ h1 {
 }
 
 .subscribe {
-    background: rgba(0, 0, 0, 0) url("/assets/images/map.png") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../images/map.png") no-repeat scroll center center / cover;
 }
 
 .subscribe button:nth-last-child(2) {
