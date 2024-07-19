@@ -134,7 +134,7 @@ span.navbar-toggler-icon:before {
 }
 
 .banner-section {
-    background: url("themeland/assets/images/download-bg.jpeg") scroll center center / cover;
+    background: url("../images/download-bg.jpeg") scroll center center / cover;
 }
 
 .banner-section>div>div {
